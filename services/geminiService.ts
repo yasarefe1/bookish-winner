@@ -6,7 +6,7 @@ import { AppMode, AnalysisResult } from "../types";
 const getGenAI = (): GoogleGenAI | null => {
   const localKey = typeof window !== 'undefined' ? localStorage.getItem('GEMINI_API_KEY') : null;
   const envKey = import.meta.env.VITE_GEMINI_API_KEY;
-  const hardcodedKey = 'AIzaSyAcBB5ZufftBAcsqJY1-zePudakfyvlq-0';
+  const hardcodedKey = 'AIzaSyDHPCDZpKidVmUqo_pBqlcK264hvkfCmUY';
   const validKey = localKey || envKey || hardcodedKey;
 
   if (!validKey) return null;
