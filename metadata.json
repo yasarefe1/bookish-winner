@@ -1,0 +1,9 @@
+{
+  "name": "Üçüncü Göz (Third Eye)",
+  "description": "Görme engelliler için yapay zeka destekli, sesli ve yüksek kontrastlı asistan.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
